@@ -1,16 +1,100 @@
 [
     {
-        "Clipboard": {
-            "onCopy": "lorenm loraem lorem",
-            "onCut": "lorem lorem lorem",
-            "onPaste": "lorem lorem lorem"
-        }
+    "Clipboard": {
+        "onCopy": "is an event that is triggered when a user copies content to their clipboard. It is commonly used in web development to perform some action after the user copies content, such as updating the UI or displaying a message.",
+        "onCut": "Triggered when the user cuts content (using the keyboard shortcut or the context menu).",
+        "onPaste": " Triggered when the user pastes content (using the keyboard shortcut o  the contex  menu)."
     },
-    {
-        "Composition":{
-            "onCompositionEnd": "lorem lorem lorem",
-            "onCompositionStart": "lorem lorem lorem",
-            "onCompositionUpdate": "lorem lorem lorem"
-        }
+    "Composition": {
+        "onCompositionEnd": " event is fired when the IME completes composing an input sequence.",
+        "onCompositionStart": "event is fired when the IME starts composing an input sequence.",
+        "onCompositionUpdate": "event is fired when the IME updates the composition with new input."
+    },
+    "Keyboard": {
+        "onKeyDown": "This event occurs before the actual character is typed into the input field. This event is useful when you want to detect which key is being pressed, for example, to move a character in a game or to perform an action when a specific key is pressed. ",
+        "onKeyPress": "event is triggered when a key on the keyboard is pressed down and the character is about to be inserted into the input field. This event occurs after the onKeyDown event and before the onKeyUp event.",
+        "onKeyUp": "event is triggered when a key on the keyboard is released. This event occurs after the character has been inserted into the input field."
+    },
+    "Focus": {
+        "onFocus": "event is triggered when an element receives focus, which can happen when the element is clicked or tabbed to. ",
+        "onBlur": "event is triggered when an element loses focus, which can happen when the user clicks away from the element or tabs away from it. "
+    },
+    "Form": {
+        "onChange": "event is triggered when the value of an input, select, or textarea element changes and the element loses focus. For example, if a user selects a different option in a dropdown menu, the onChange event will be triggered when they click away from the menu.",
+        "onInput": "event is triggered when the value of an input, select, or textarea element changes, regardless of whether or not the element has focus. For example, if a user types a letter into a text input field, the onInput event will be triggered with each key press.",
+        "onSubmit": "event is triggered when a form is submitted, either by clicking a submit button or by pressing the Enter key while an input element has focus"
+    },
+    "Mouse": {
+        "onClick": "This event is triggered when an element is clicked by the user.",
+        "onContextMenu": " This event is triggered when the user right-clicks on an element to open the context menu.",
+        "onDoubleClick": "This event is triggered when the user double-clicks on an element.",
+        "onDrag": "This event is triggered when an element is being dragged by the user.",
+        "onDragEnd": " This event is triggered when the dragging of an element is completed.",
+        "onDragEnter": " This event is triggered when a dragged element enters a drop target.",
+        "onDragExit": " This event is triggered when a dragged element leaves a drop target.",
+        "onDragLeave": " This event is triggered when a dragged element is moved out of a drop target.",
+        "onDragOver": " This event is triggered when a dragged element is being dragged over a drop target.",
+        "onDragStart": " This event is triggered when the dragging of an element starts.",
+        "onDrop": "This event is triggered when a dragged element is dropped on a drop target.",
+        "onMouseDown": "This event is triggered when the user presses a mouse button over an element.",
+        "onMouseEnter": " This event is triggered when the mouse pointer enters the area of an element.",
+        "onMouseLeave": " This event is triggered when the mouse pointer leaves the area of an element.",
+        "onMouseMove": " This event is triggered when the mouse pointer is moved over an element.",
+        "onMouseOut": "This event is triggered when the mouse pointer moves out of an element.",
+        "onMouseOver": " This event is triggered when the mouse pointer moves over an element.",
+        "onMouseUp": " This event is triggered when the user releases a mouse button over an element."
+    },
+    "Selector": {
+        "onSelect": "is an event handler in web development that gets triggered when a user selects a specific element or text on a webpage."
+    },
+    "Touch": {
+        "onTouchEnd": "This event is triggered when a touch point is removed from the touch surface, either because the user has lifted their finger, or because the touch point has been canceled. The onTouchEnd event handler is executed when this occurs.",
+        "onTouchMove": "This event is triggered when a touch point is moved across the touch surface. The onTouchMove event handler is executed repeatedly as the touch point is moved.",
+        "onTouchStart": "This event is triggered when a touch point is placed on the touch surface. The onTouchStart event handler is executed when this occurs.",
+        "onTouchCancel": "This event is triggered when a touch is interrupted by another gesture, such as a pinch or zoom, or if the touch point is lost. The onTouchCancel event handler is executed when this occurs."
+    },
+    "Ui": {
+        "onScroll": "is an event that occurs when a user scrolls a webpage or document, either by using a scroll bar, arrow keys, or touchpad gestures."
+    },
+    "Mouse Wheel": {
+        "onWheel": "is an event that is triggered when a user interacts with the scroll wheel on a mouse or a touchpad. "
+    },
+    "Media": {
+        "onAbort": "triggered when media loading has been aborted.",
+        "onCanPlay": "triggered when enough media data has been loaded to play the media, but the media has not been fully loaded.",
+        "onCanPlayThrough": "triggered when enough media data has been loaded to play the media through to the end, without interruption.",
+        "onDurationChange": "triggered when the duration of the media has changed (e.g. when seeking to a different part of the media).",
+        "onEmptied": "triggered when the media has become empty; for example, when changing the media source.",
+        "onEncrypted": "triggered when the media data is encrypted.",
+        "onEnded": "triggered when the media has ended playback",
+        "onError": "triggered when an error occurs while loading or playing the media.",
+        "onLoadedData": "triggered when the media data has finished loading.",
+        "onLoadedMetadata": "triggered when the metadata for the media (e.g. duration, dimensions, etc.) has been loaded.",
+        "onLoadStart": "triggered when media loading has started.",
+        "onPause": "triggered when media playback has been paused.",
+        "onPlay": "triggered when media playback has started or resumed.",
+        "onPlaying": "triggered when media playback is actively playing.",
+        "onProgress": "triggered periodically while the media is loading.",
+        "onRateChange": "triggered when the playback rate of the media has changed (e.g. when using fast forward or slow motion).",
+        "onSeeked": "triggered when a seek operation has completed.",
+        "onSeeking": "triggered when a seek operation is in progress.",
+        "onStalled": "triggered when the media is unable to load due to lack of data.",
+        "onSuspend": "triggered when the media is suspended from loading (e.g. when buffering has stopped).",
+        "onTimeUpdate": "triggered periodically as the media is playing, indicating the current playback time",
+        "onVolumeChange": "triggered when the volume of the media has been changed.",
+        "onWaiting": "triggered when the media is waiting for more data to be loaded"
+    },
+    "Image": {
+        "onLoad": "is an event that fires when an HTML element (such as an image, a video, or a page) has finished loading.",
+        "onError": "is an event that fires when an error occurs while loading an HTML element, such as an image or a script."
+    },
+    "Amination": {
+        "onAnimationStart": "This is an event that is triggered when an animation begins. It can be used to perform any actions or set any states at the start of the animation.",
+        "onAnimationEnd": "This event is triggered when an animation finishes. It can be used to perform any actions or set any states at the end of the animation.",
+        "onAnimationIteration": "This event is triggered when an animation loop completes. It can be used to perform any actions or set any states at the end of each loop.",
+    },
+    "Transition": {
+        "onTransitionEnd": "This event is triggered when a CSS transition completes. It can be used to perform any actions or set any states at the end of the transition."
     }
+}
 ]
