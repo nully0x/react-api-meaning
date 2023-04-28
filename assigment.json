@@ -1,16 +1,134 @@
 [
     {
         "Clipboard": {
-            "onCopy": "lorenm loraem lorem",
-            "onCut": "lorem lorem lorem",
-            "onPaste": "lorem lorem lorem"
+            "onCopy": "The oncopy event occurs when the user copies an element text or a whole element in the browser",
+            "onCut": "The oncut event occurs when the user cuts the content of an element.The oncut event is mostly used on <input> elements with type=\"text\"",
+            "onPaste": "The onpaste event occurs when the user pastes some content into an element. The onpaste event is mostly used on <input> elements with type=\"text\""
         }
     },
+
     {
-        "Composition":{
-            "onCompositionEnd": "lorem lorem lorem",
-            "onCompositionStart": "lorem lorem lorem",
-            "onCompositionUpdate": "lorem lorem lorem"
+        "Composition": {
+            "onCompositionEnd": "The compositionend event is fired when a text composition system such as an input method editor completes or cancels the current composition session",
+            "onCompositionStart": "The compositionstart event is fired when a text composition system such as an input method editor starts a new composition session",
+            "onCompositionUpdate": "The compositionupdate event is fired when a new character is received in the context of a text composition session controlled by a text composition system such as an input method editor"
+        }
+    },
+
+    {
+        "Keyboard": {
+            "onKeyDown": "The onkeydown event occurs when the user presses a key on the keyboard",
+            "onKeyPress": "The onkeypress event occurs when the user presses a key on the keyboard",
+            "onKeyUp": "The onkeyup event occurs when the user releases a key on the keyboard"            
+        }
+    },
+
+    {
+        "Focus": {
+            "onFocus": "The onfocus event occurs when an element gets focus. The onfocus event is often used on input fields",
+            "onBlur": "The onblur event occurs when an HTML element loses focus. The onblur event is often used on input fields."       
+        }
+    },
+
+    {
+        "Form": {
+            "onChange": "The onchange event occurs when the value of an HTML element is changed",
+            "onInput": "The oninput event occurs when an element gets input. The oninput event occurs when the value of an <input> or <textarea> element is changed onSubmit"            
+        }
+    },
+
+    {
+        "mouse": {
+            "onClick":"The onclick event occurs when the user clicks on an HTML element.",
+            "onContextMenu": "The oncontextmenu event occurs when the user right-clicks an HTML element to open the context menu",            
+            "onDoubleClick": " This event occurs when the user double-clicks on an HTML element",            
+            "onDrag": "The ondrag event occurs when a selection is being dragged",            
+            "onDragEnd": "The ondragend event occurs when a user has finished dragging a selection",            
+            "onDragEnter": "The ondragenter event occurs when a draggable selection enters a drop target",            
+            "onDragExit": "This event is activated when the cursor moves away from an element during a drag and drop session. It occurs after the ondragdrop event",            
+            "onDragLeave": "The ondragleave event occurs when a draggable selection leaves a drop target",            
+            "onDragOver": "The ondragover event occurs when a draggable selection is dragged over a target",            
+            "onDragStart": "The ondragstart event occurs when the user starts to drag a selection",
+            "onDrop": "The ondrop event occurs when a draggable selection is dropped on a target",            
+            "onMouseDown": "The onmousedown event occurs when a user presses a mouse button over an HTML element",
+            "onMouseEnter": "The onmouseenter event occurs when the mouse pointer enters an element. The onmouseenter event is often used together with the onmouseleave event, which occurs when the mouse pointer leaves an element",
+            "onMouseLeave": "The onmouseleave event occurs when the mouse pointer leaves an element.The onmouseleave event is often used together with the onmouseenter event, which occurs when the mouse pointer enters an element",
+            "onMouseMove":"The onmousemove event occurs when the pointer moves over an element",            
+            "onMouseOut":"The onmouseout event occurs when the mouse pointer moves out of an element. The onmouseout event is often used together with the onmouseover event, which occurs when the pointer is moved over an element.",
+            "onMouseOver":"The onmouseover event occurs when the mouse pointer enters an element. The onmouseover event is often used together with the onmouseout event, which occurs when the mouse pointer leaves the element",
+            "onMouseUp":"The onmouseup event occurs when a mouse button is released over an element."            
+        }
+    },
+
+    {
+        "Selection": {
+            "onSelect":"The onselect event occurs after some text has been selected in an element. The onselect event is mostly used on <input type=\"text\"> or <textarea> elements"
+        }
+    },
+
+    {
+        "Touch": {
+            "onTouchCancel":"The touchcancel event occurs when a touch event is interrupted.The touchcancel event only works on touch screens",
+            "onTouchEnd":"The touchend event occurs when a user removes the finger from an element.The touchend event only works on touch screens",
+            "onTouchMove":"The touchmove event occurs when a user moves a finger across the screen. The touchmove event only works on touch screens.This event is triggered once for each movement and continues until the finger is released",
+            "onTouchStart":"The touchstart event occurs when a user touches an element. The touchstart event only works on touch screens"
+        }
+    },
+
+    {
+        "UI": {
+            "onScroll":"The onscroll event occurs when an element's scrollbar is being scrolled",
+            "Mouse Wheel":"The WheelEvent Object handles events that occur when the mouse wheel is scrolling",           
+            "onWheel":"The onwheel event occurs when the mouse wheel is rolled over an element. The onwheel event also occurs when the user scrolls using a touchpad"
+        }
+    },
+
+    {
+        "Media": {
+            "onAbort":"The onabort event occurs when the loading of an audio or video is aborted. The onabort event occurs when a download is aborted, not when an error occurs",
+            "onCanPlay":"The oncanplay event occurs when the browser can start playing a media. The oncanplay event occurs when the browser has buffered enough to begin",           
+            "onCanPlayThrough":"The oncanplaythrough event occurs when the browser estimates it can play through a media without having to stop for buffering",
+            "onDurationChange":"The ondurationchange event occurs when the duration of a media is changed. When an audio or video is loaded, the duration changes from \"NaN\" to an actual duration",
+            "onEmptied":"The onemptied event occurs when the an audio or video is empty. The onemptied is not sent when a media has finished loading.It is only sent if the load() method is called, and the media has already been loaded",
+            "onEncrypted":"The onencrypted property of the HTMLMediaElement is an event handler, fired whenever an encrypted event occurs, denoting the media is encrypted",           
+            "onEnded":"The onended event occurs when an audio/video has reached the end. The onended event is useful for messages like \"thanks for listening\"",
+            "onError":"The onerror event occurs when an error occurs during the loading of a media",
+            "onLoadedData":"The onloadeddata event occurs when a media frame is loaded, but does not guarantee that enough data is available to begin playing. The onloadeddata event occurs after onloadedmetadata and before oncanplay",           
+            "onLoadedMetadata":"The onloadedmetadata event occurs when meta data for a media has been loaded.Meta data for an audio or video consists of: Duration, Dimensions (video) and Tracks",
+            "onLoadStart":"The onloadstart event occurs when the browser starts the loading process of an audio or video i.e When the browser starts searching for an audio or video",           
+            "onPause":"The onpause event occurs when an audio/video is paused. The onpause event also occurs when an audio/video has reached the end",
+            "onPlay":"The onplay event occurs when an audio/video is started",
+            "onPlaying":"The onplaying event occurs when an audio/video starts playing. The onplaying event also occurs when an audio/video resumes after beeing paused or buffered",
+            "onProgress":"The onprogress event occurs when the browser is downloading an audio or video",
+            "onRateChange":"The onratechange event occurs when the playing speed of a media is changed",
+            "onSeeked":"The onseeked event occurs when a user has seeked a new position in a media",
+            "onSeeking":"The onseeking event occurs when a user starts seeking a new position in a media",
+            "onStalled":"The onstalled event occurs when the browser is trying to get media data that is not available",
+            "onSuspend":"The onsuspend event occurs when the browser is not getting media data.The onsuspend event occurs when the loading is prevented or suspended",
+            "onTimeUpdate":"The ontimeupdate event occurs when the play time of a media changes. The ontimeupdate event occurs while the media is playing",
+            "onVolumeChange":"The onvolumechange event occurs when a media volume is changed(increased, decreased, muted or united)",
+            "onWaiting":"The onwaiting event occurs when a media must wait for the next frame"
+        }
+    },
+             
+    {
+        "Image": {
+            "onLoad":"The onload event occurs when an object has been loaded. onload is most often used within the <body> element to execute a script once a web page has completely loaded all content (including images, script files, CSS files, etc.)",
+            "onError":"The onerror event is triggered if an error occurs while loading an external file (e.g. a document or an image)"
+        }
+    },                  
+         
+    {
+        "Animation": {
+            "onAnimationStart":"The animationstart event occurs when a CSS animation starts",
+            "onAnimationEnd":"The animationend event occurs when a CSS animation has completed",
+            "onAnimationIteration":"The animationiteration event occurs when a CSS animation is repeated"
+        }
+    },
+
+    {
+        "Transition":{
+           "onTransitionEnd":"The transitionend event occurs when a CSS transition has completed"
         }
     }
 ]
