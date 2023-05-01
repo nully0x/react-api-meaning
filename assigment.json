@@ -1,16 +1,191 @@
 [
     {
         "Clipboard": {
-            "onCopy": "lorenm loraem lorem",
-            "onCut": "lorem lorem lorem",
-            "onPaste": "lorem lorem lorem"
+            "onCopy": "The onCopy event is triggered when the user copies some content to the clipboard. It can be attached to any React element that has a copy action associated with it, such as a button or text input field. In React, you can use the onCopy event reference to perform some action when the user copies some content.",
+
+            "onCut": "The onCut event is triggered when the user cuts some content from a text input field or an editable element, and the content is removed from the element and copied to the clipboard.In React, you can use the onCut event reference to perform some action when the user cuts content from an element.",
+
+            "onPaste": "The onPaste event is triggered when the user pastes some content from the clipboard into a text input field or an editable element.In React, you can use the onPaste event reference to perform some action when the user pastes content into an element."
         }
     },
+    
     {
         "Composition":{
-            "onCompositionEnd": "lorem lorem lorem",
-            "onCompositionStart": "lorem lorem lorem",
-            "onCompositionUpdate": "lorem lorem lorem"
+            "onCompositionEnd": "The onCompositionEnd event is triggered when the user has finished composing text in an editable element by entering characters using an input method editor (IME). This event is usually used in conjunction with the onCompositionStart and onCompositionUpdate events, which are also related to text composition using an IME. In React, you can use the onCompositionEnd event reference to perform some action when the user finishes composing text using an IME.The onCompositionStart event is not triggered when the user types directly into the input field using a standard keyboard, but only when the user starts composing text using an IME",
+
+            "onCompositionStart": "The onCompositionStart event is triggered when the user starts composing text in an editable element using an input method editor (IME). This event is usually used in conjunction with the onCompositionEnd and onCompositionUpdate events, which are also related to text composition using an IME.In React, you can use the onCompositionStart event reference to perform some action when the user starts composing text using an IME.The onCompositionStart event is not triggered when the user types directly into the input field using a standard keyboard, but only when the user starts composing text using an IME",
+
+            "onCompositionUpdate": "The onCompositionUpdate event is triggered when the user updates the composition of text in an editable element using an input method editor (IME). This event is usually used in conjunction with the onCompositionStart and onCompositionEnd events, which are also related to text composition using an IME.In React, you can use the onCompositionUpdate event reference to perform some action when the user updates the composition of text using an IME."
+        }
+    },
+
+    {
+        "Keyboard": {
+            "onKeyDown": "The onKeyDown event is triggered when a key on the keyboard is pressed down. This event is commonly used in React to handle keyboard input and perform actions based on the keys that are pressed.",
+
+            "onKeyPress": "The onKeyPress event is triggered when a printable character is pressed down and released on the keyboard, such as letters, numbers, and punctuation marks. This event is commonly used in React to handle text input and perform actions based on the characters that are typed.",
+
+            "onKeyUp": "he onKeyUp event is triggered when a key on the keyboard is released after being pressed down. This event is commonly used in React to handle keyboard input and perform actions based on the keys that are released."
+        }
+    },
+
+    {
+        "Focus": {
+            "onFocus": "The onFocus event is triggered when an element gains focus, typically as a result of being clicked or tabbed into by the user. This event is commonly used in React to handle focus-related behavior and perform actions when an element gains focus.",
+
+            "onBlur": "The onBlur event is triggered when an element loses focus, typically as a result of the user clicking or tabbing away from the element. This event is commonly used in React to handle focus-related behavior and perform actions when an element loses focus."
+        }
+    },
+
+    {
+        "Form": {
+            "onChange": "The onChange event is triggered when the value of an element has changed, typically as a result of user input. This event is commonly used in React to handle changes to form elements, such as input fields, checkboxes, and radio buttons.",
+
+            "onInput": "The onInput event is triggered when the value of an input element has changed, typically as a result of user input. This event is similar to the onChange event, but it is triggered more frequently and can also be used to capture non-user input changes, such as changes made programmatically.",
+
+            "onSubmit": "The onSubmit event is triggered when a form is submitted. This event is commonly used in React to handle form submissions and perform some action, such as sending data to a server or updating the state of a component."
+        }
+    },
+
+    {
+        "Mouse": {
+            "onClick": "The onClick event is triggered when a user clicks on an element. This event is one of the most commonly used events in React, as it allows you to create interactive user interfaces that respond to user input.",
+
+            "onContextMenu": "The onContextMenu event is triggered when the user right-clicks on an element. This event can be used to display a context menu or perform some other action in response to a right-click event.",
+
+            "onDoubleClick": "The onDoubleClick event is triggered when the user double-clicks on an element. This event can be used to perform some action in response to a double-click event, such as opening a modal window or expanding a collapsed section.",
+
+            "onDrag": "The onDrag event is triggered when an element is being dragged by the user. This event can be used to perform some action in response to a drag event, such as updating the position of the dragged element or updating the state of the application based on the drag event",
+
+            "onDragEnd": "onDragEnd: The onDragEnd event is triggered when the user has finished dragging an element and releases the mouse button. This event can be used to perform some action in response to the end of a drag event, such as updating the state of the application based on the final position of the dragged element.",
+
+            "onDragEnter": "The onDragEnter event is triggered when a draggable element is dragged over a droppable element. This event can be used to perform some action in response to the start of a drag event, such as highlighting the droppable element to indicate that it is a valid drop target.",
+
+            "onDragExit": "The onDragExit event is triggered when a draggable element leaves a droppable element. This event can be used to perform some action in response to the end of a drag event, such as removing the highlight from the droppable element.",
+
+            "onDragLeave": "The onDragLeave event is triggered when a draggable element is dragged out of a droppable element without dropping. This event can be used to perform some action in response to the end of a drag event, such as removing the highlight from the droppable element.",
+
+            "onDragOver": "The onDragOver event is triggered when a draggable element is being dragged over a droppable element. This event can be used to perform some action in response to the dragover event, such as preventing the default behavior of the browser to allow for a custom drop behavior.",
+
+            "onDragStart": "The onDragStart event is triggered when the user starts dragging an element. This event can be used to perform some action in response to the start of a drag event, such as setting the data that will be dropped.",
+
+            "onDrop": "The onDrop event is triggered when a draggable element is dropped onto a droppable element. This event can be used to perform some action in response to the drop event, such as updating the state of the application based on the dropped element.",
+
+            "onMouseDown": "The onMouseDown event is triggered when the user presses a mouse button on an element. This event can be used to perform some action in response to the start of a mouse event, such as starting a drag event.",
+
+            "onMouseEnter": "The onMouseEnter event is triggered when the mouse pointer enters an element. This event can be used to perform some action in response to the start of a mouse event, such as highlighting the element to indicate that it is interactive.",
+
+            "onMouseLeave": "The onMouseLeave event is triggered when the mouse pointer leaves an element. This event can be used to perform some action in response to the end of a mouse event, such as removing the highlight from the element.",
+
+            "onMouseMove": "The onMouseMove event is triggered when the mouse pointer moves over an element. This event can be used to perform some action in response to the movement of the mouse pointer, such as tracking the position of the pointer.",
+
+            "onMouseOut": "The onMouseOut event is triggered when the mouse pointer leaves an element or one of its child elements. This event can be used to perform some action in response to the end of a mouse event, such as removing the highlight from the element.",
+
+            "onMouseUp": "The onMouseUp event is triggered when the user releases a mouse button on an element. This event can be used to perform some action in response to the end of a mouse event, such as ending a drag event."
+        }
+    },
+
+    {
+        "Selection": {
+            "onSelect": "The onSelect event is triggered when the user selects text on a web page. This event can be used to perform some action in response to the selection, such as copying the selected text to the clipboard."
+        }
+    },
+
+    {
+        "Touch": {
+            "onTouchCancel": "The onTouchCancel event is triggered when a touch event is cancelled. This event can be used to perform some action in response to the cancellation of a touch event, such as resetting the state of the application.",
+
+            "onTouchEnd": "The onTouchEnd event is triggered when a touch event ends, either because the user removes their finger from the touch screen or because the touch event is cancelled. This event can be used to perform some action in response to the end of a touch event, such as updating the state of the application based on the touch event.",
+
+            "onTouchMove": "The onTouchMove event is triggered when the user moves their finger across the touch screen. This event can be used to perform some action in response to the movement of the user's finger, such as updating the position of an element on the screen.",
+
+            "onTouchStart": "The onTouchStart event is triggered when the user places their finger on the touch screen. This event can be used to perform some action in response to the start of a touch event, such as starting an animation or updating the state of the application based on the touch event."
+        }
+    },
+
+    {
+        "UI": {
+            "onScroll": "The onScroll event is triggered when an element is scrolled. This event can be used to perform some action in response to the scrolling of an element, such as updating the position of an element on the screen."
+        }
+    },
+
+    {
+        "Mouse Wheel": {
+            "onWheel": "The onWheel event is a browser event in JavaScript and React that is fired when the user scrolls the mouse wheel over an element. This event can be used to implement custom behavior when the user scrolls the wheel, such as changing the size of a web page."
+        }
+    },
+
+    {
+        "Media": {
+            "onAbort": "This event is triggered when media playback is aborted, either because the media source is invalid or because the user has interrupted playback.",
+
+            "onCanPlay": "This event is triggered when enough of the media file has downloaded to allow playback to begin.",
+
+            "onCanPlayThrough": "This event is triggered when enough of the media file has downloaded to play through to the end without interruption.",
+
+            "onDurationChange": "This event is triggered when the duration of the media file changes.",
+
+            "onEmptied": "This event is triggered when the media element is emptied, such as when the media source is changed.",
+
+            "onEncrypted": "This event is triggered when the media file is encrypted and requires decryption to be played.",
+
+            "onEnded": "This event is triggered when media playback has ended.",
+
+            "onError": "This event is triggered when an error occurs during media playback.",
+
+            "onLoadedData": "This event is triggered when the first frame of the media file has loaded.",
+
+            "onLoadedMetadata": "This event is triggered when the metadata of the media file has loaded, such as the duration and dimensions.",
+
+            "onLoadStart": "This event is triggered when the media file begins to load.",
+
+            "onPause": "This event is triggered when media playback is paused.",
+
+            "onPlay": "This event is triggered when media playback begins.",
+
+            "onPlaying": "This event is triggered when media playback has started and is no longer paused or buffering.",
+
+            "onProgress": "This event is triggered periodically as the media file downloads",
+
+            "onRateChange": "This event is triggered when the playback rate changes, such as when the user speeds up or slows down playback.",
+
+            "onSeeked": "This event is triggered when the user has finished seeking to a new position in the media file.",
+
+            "onSeeking": "This event is triggered when the user is currently seeking to a new position in the media file.",
+
+            "onStalled": "This event is triggered when the media file is buffering and playback has stalled.",
+
+            "onSuspend": "This event is triggered when media playback is temporarily suspended, such as when the user switches tabs or the media file is paused for buffering.",
+
+            "onTimeUpdate": "This event is triggered periodically as the media playback progresses, indicating the current time of playback.",
+
+            "onVolumeChange": "This event is triggered when the volume of the media player changes.",
+
+            "onWaiting": "This event is triggered when the media player is waiting for data to download during buffering."
+        }
+    },
+
+    {
+        "Image": {
+            "onLoad": "This event is triggered when an object such as an image or a video has finished loading.",
+
+            "onError": "This event is triggered when an object such as an image or a video fails to load.This event is triggered when an object such as an image or a video fails to load."
+        }
+    },
+
+    {
+        "Animation": {
+            "onAnimationStart": "This event is triggered when an animation starts.",
+
+            "onAnimationEnd": "This event is triggered when an animation ends.",
+
+            "onAnimationIteration": "This event is triggered when an animation completes one cycle."
+        }
+    },
+
+    {
+        "Transition": {
+            "onTransitionEnd": "This event is triggered when a CSS transition has completed."
         }
     }
 ]
