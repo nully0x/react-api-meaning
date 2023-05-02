@@ -1,16 +1,97 @@
-[
-    {
-        "Clipboard": {
-            "onCopy": "lorenm loraem lorem",
-            "onCut": "lorem lorem lorem",
-            "onPaste": "lorem lorem lorem"
-        }
+{
+    "Clipboard": {
+      "onCopy": "The onCopy event is triggered when the user copies content from the clipboard.",
+      "onCut": "The onCut event is triggered when the user cuts content from the clipboard.",
+      "onPaste": "The onPaste event is triggered when the user pastes content from the clipboard."
     },
-    {
-        "Composition":{
-            "onCompositionEnd": "lorem lorem lorem",
-            "onCompositionStart": "lorem lorem lorem",
-            "onCompositionUpdate": "lorem lorem lorem"
-        }
+    "Composition": {
+      "onCompositionEnd": "The onCompositionEnd event is triggered when the user finishes composing text.",
+      "onCompositionStart": "The onCompositionStart event is triggered when the user starts composing text.",
+      "onCompositionUpdate": "The onCompositionUpdate event is triggered when the user updates the composition of text."
+    },
+    "Keyboard": {
+      "onKeyDown": "The onKeyDown event is triggered when a key is pressed down.",
+      "onKeyPress": "The onKeyPress event is triggered when a key is pressed and released.",
+      "onKeyUp": "The onKeyUp event is triggered when a key is released."
+    },
+    "Focus": {
+      "onFocus": "The onFocus event is triggered when an element receives focus.",
+      "onBlur": "The onBlur event is triggered when an element loses focus."
+    },
+    "Form": {
+      "onChange": "The onChange event is triggered when the value of an element changes.",
+      "onInput": "The onInput event is triggered when the user enters input into an element.",
+      "onSubmit": "The onSubmit event is triggered when a form is submitted."
+    },
+    "Mouse": {
+      "onClick": "The onClick event is triggered when the user clicks an element.",
+      "onContextMenu": "The onContextMenu event is triggered when the user right-clicks an element.",
+      "onDoubleClick": "The onDoubleClick event is triggered when the user double-clicks an element.",
+      "onDrag": "The onDrag event is triggered when an element is dragged.",
+      "onDragEnd": "The onDragEnd event is triggered when an element's drag operation ends.",
+      "onDragEnter": "The onDragEnter event is triggered when a dragged element enters a drop target.",
+      "onDragExit": "The onDragExit event is triggered when a dragged element leaves a drop target.",
+      "onDragLeave": "The onDragLeave event is triggered when a dragged element is dragged out of a drop target.",
+      "onDragOver": "The onDragOver event is triggered when a dragged element is being dragged over a drop target.",
+      "onDragStart": "The onDragStart event is triggered when a user starts to drag an element.",
+      "onDrop": "The onDrop event is triggered when a dragged element is dropped on a drop target.",
+      "onMouseDown": "The onMouseDown event is triggered when the user presses a mouse button over an element.",
+      "onMouseEnter": "The onMouseEnter event is triggered when the mouse enters an element.",
+      "onMouseLeave": "The onMouseLeave event is triggered when the mouse leaves an element.",
+      "onMouseMove": "The onMouseMove event is triggered when the mouse moves over an element.",
+      "onMouseOut": "The onMouseOut event is triggered when the mouse moves out of an element.",
+      "onMouseOver": "The onMouseOver event is triggered when the mouse moves over an element.",
+      "onMouseUp": "The onMouseUp event is triggered when the user releases a mouse button over an element."
+    },
+    "Selection": {
+      "onSelect": "The onSelect event is triggered when the user selects text or elements."
+    },
+    "Touch": {
+      "onTouchCancel": "The onTouchCancel event is fired when a touch point is disrupted in some way, such as when the user moves their finger off the screen or if an external event, like a phone call or text message, interrupts the touch event.",
+      "onTouchEnd": "The onTouchEnd event is fired when a touch point is removed from the screen, such as when the user lifts their finger off the screen.",
+      "onTouchMove": "The onTouchMove event is fired when a touch point is moved along the screen, such as when the user slides their finger across the screen.",
+      "onTouchStart": "The onTouchStart event is fired when a touch point is placed on the screen, such as when the user touches the screen with their finger."
+    },
+    "UI": {
+      "onScroll": "The onScroll event is fired when the user scrolls an element, such as a webpage, using a scrollbar or touchpad.",
+      "Mouse Wheel": "The Mouse Wheel event is fired when the user scrolls an element using a mouse wheel or trackpad.",
+      "onWheel": "The onWheel event is fired when the user scrolls an element using a mouse wheel or trackpad, similar to the Mouse Wheel event."
+    },
+    "Media": {
+      "onAbort": "Fires when the loading of an audio/video is aborted.",
+      "onCanPlay": "Fires when the browser can start playing the audio/video.",
+      "onCanPlayThrough": "Fires when the browser estimates it can play the audio/video to the end without stopping for buffering.",
+      "onDurationChange": "Fires when the duration of the audio/video is updated.",
+      "onEmptied": "Fires when the current playlist is empty.",
+      "onEncrypted": "Fires when the media data is encrypted.",
+      "onEnded": "Fires when the audio/video has ended.",
+      "onError": "Fires when an error occurs while loading an audio/video.",
+      "onLoadedData": "Fires when the browser has loaded the current frame of the audio/video.",
+      "onLoadedMetadata": "Fires when the browser has loaded meta data for the audio/video.",
+      "onLoadStart": "Fires when the browser starts to load an audio/video.",
+      "onPause": "Fires when the audio/video is paused.",
+      "onPlay": "Fires when the audio/video has been started or is no longer paused.",
+      "onPlaying": "Fires when the audio/video has started playing.",
+      "onProgress": "Fires when the browser is downloading the audio/video.",
+      "onRateChange": "Fires when the playback speed of the audio/video is changed.",
+      "onSeeked": "Fires when the user has finished moving/skipping to a new position in the audio/video.",
+      "onSeeking": "Fires when the user starts moving/skipping to a new position in the audio/video.",
+      "onStalled": "Fires when the browser is trying to get media data, but data is not available.",
+      "onSuspend": "Fires when the browser is intentionally not getting media data.",
+      "onTimeUpdate": "Fires when the current playback position of the audio/video has changed.",
+      "onVolumeChange": "Fires when the volume has been changed.",
+      "onWaiting": "Fires when the video stops because it needs to buffer the next frame."
+    },
+    "Image": {
+      "onLoad": "Fires when the image has been loaded.",
+      "onError": "Fires when an error occurs while loading the image."
+    },
+    "Animation": {
+      "onAnimationStart": "Fires when the animation starts.",
+      "onAnimationEnd": "Fires when the animation ends.",
+      "onAnimationIteration": "Fires when the animation repeats."
+    },
+    "Transition": {
+      "onTransitionEnd": "Fires when a CSS transition has completed or been interrupted."
     }
-]
+  }
