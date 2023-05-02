@@ -1,16 +1,98 @@
-[
-    {
-        "Clipboard": {
-            "onCopy": "lorenm loraem lorem",
-            "onCut": "lorem lorem lorem",
-            "onPaste": "lorem lorem lorem"
-        }
+{
+    "clipboard": {
+      "onCopy": "This occurs when the user starts a copy process in the browser",
+      "onCut": "This occurs when the user cuts the content of an element",
+      "onPaste": "This occur when the user paste some content in an element"
     },
-    {
-        "Composition":{
-            "onCompositionEnd": "lorem lorem lorem",
-            "onCompositionStart": "lorem lorem lorem",
-            "onCompositionUpdate": "lorem lorem lorem"
-        }
+    "composition": {
+      "onCompositionEnd": "The event is used when a text composition system completes or cancels the current composition session",
+      "onCompositionStart": "This is used when a text composition system starts a new composition",
+      "onCompositionUpdate": "This is used when a new character i received in the context of a text composititon session controlled by the text composition system"
+    },
+    "keyboard": {
+      "onKeyDown": "This is fired when a key is pressed",
+      "onKeyPress": "This is fired when a key that produces a character value is pressed down",
+      "onKeyUp": "This is fired when a key is released"
+    },
+    "focus": {
+      "onFocus": "The event fires when anelement has received focus. It does not bubble",
+      "onBlur": "This event fires when an element has lost focus"
+    },
+    "form": {
+      "onChange": "The event is fired for <input>, <select>, and <textarea> elements when the user modifies the element's value. Unlike the input event, the change event is not necessarily fired for each alteration to an element's value",
+      "onInput": "The  event fires when the value of an <input>, <select>, or <textarea> element has been changed",
+      "onSubmit": "This fires when a form is submitted"
+    },
+    "mouse": {
+      "onClick": "This works  when a pointing device button (such as a mouse's primary mouse button) is both pressed and released while the pointer is located inside the element",
+      "onContextMenu": "This fires when the user attempts to open a context menu. This event is typically triggered by clicking the right mouse button, or by pressing the context menu key.",
+      "onDoubleClick": "This fires when a pointing device button (such as a mouse's primary button) is double-clicked; that is, when it's rapidly clicked twice on a single element within a very short span of time.",
+      "onDrag": "This script is to be run when an element is dragged",
+      "onDragEnd": "This is to be run at the end of a drag operation",
+      "onDragEnter": "This is to be run when an element has been dragged to a valid drop target",
+      "onDragExit": "This is activated when the cursor moves away from an element during a drag and drop session",
+      "onDragLeave": "This is to be run when an element leaves a valid drop target",
+      "onDragOver": "This is to be run when an element is being dragged over a valid drop target",
+      "onDragStart": "This is to be run at the start of a drag operation",
+      "onDrop": "This is to be run when dragged element is being dropped",
+      "onMouseDown": "This  event is fired at an Element when a pointing device button is pressed while the pointer is inside the element.",
+      "onMouseEnter": "This  is fired at an Element when a pointing device (usually a mouse) is initially moved so that its hotspot is within the element at which the event was fired.",
+      "onMouseLeave": "This event is fired at an Element when the cursor of a pointing device (usually a mouse) is moved out of it.",
+      "onMouseMove": "This event is fired at an element when a pointing device (usually a mouse) is moved while the cursor's hotspot is inside it.",
+      "onMouseOut": " This is fired at an Element when a pointing device (usually a mouse) is used to move the cursor so that it is no longer contained within the element or one of its children.",
+      "onMouseOver": "This is  fired at an Element when a pointing device (such as a mouse or trackpad) is used to move the cursor onto the element or one of its child elements.",
+      "onMouseUp": "The event is fired at an Element when a button on a pointing device (such as a mouse or trackpad) is released while the pointer is located inside it."
+    },
+    "selection": {
+      "onSelect": "This fires after some text has been selected in an element"
+    },
+    "touch": {
+      "onTouchCancel": "This  event is fired when one or more touch points have been disrupted in an implementation-specific manne",
+      "onTouchEnd": "The  event fires when one or more touch points are removed from the touch surface",
+      "onTouchMove": "The  event is fired when one or more touch points are moved along the touch surface.",
+      "onTouchStart": "The  event is fired when one or more touch points are placed on the touch surface"
+    },
+    "ui": {
+      "onScroll": "The event fires when an element has been scrolled."
+    },
+    "mouseWheel": {
+      "onWheel": "The  event fires when the user rotates a wheel button on a pointing device (typically a mouse)."
+    },
+    "media": {
+      "onAbort": "This is for the script to be run on abort",
+      "onCanPlay": "This is for the script to be run when a file is ready to start playing (when it has buffered enough to begin)",
+      "onCanPlayThrough": "The script is  to be run when a file can be played all the way to the end without pausing for buffering",
+      "onDurationChange": "This is  to be run when the length of the media changes",
+      "onEmptied": "This is to be run when something bad happens and the file is suddenly unavailable (like unexpectedly disconnects)",
+      "onEncrypted": "This is fired whenever an encrypted element occurs, denoting the element is encrypted",
+      "onEnded": "The script is  to be run when the media has reach the end (a useful event for messages like (thanks for listening)",
+      "onError": "The script is to be run when an error occurs when the file is being loaded",
+      "onLoadedData": "This is to be run when media data is loaded",
+      "onLoadedMetadata": "This is  to be run when meta data (like dimensions and duration) are loaded",
+      "onPause": "This is to be run when the media is paused either by the user or programmatically",
+      "onPlay": "This is to be run when the media is ready to start playing",
+      "onPlaying": "This is to be run when the media actually has started playing ",
+      "onProgress": "This is  to be run when the browser is in the process of getting the media data",
+      "onRateChange": "This isto be run each time the playback rate changes (like when a user switches to a slow motion or fast forward mode)",
+      "onSeeked": "This is to be run when the seeking attribute is set to false indicating that seeking has ended",
+      "onSeeking": "This is o be run when the seeking attribute is set to true indicating that seeking is active",
+      "onStalled": "This is to be run when the browser is unable to fetch the media data for whatever reason",
+      "onSuspend": "This is t to be run when fetching the media data is stopped before it is completely loaded for whatever reason",
+      "onTimeUpdate": "This is to be run when the playing position has changed (like when the user fast forwards to a different point in the media) ",
+      "onVolumeChange": "This is to be run each time the volume is changed which (includes setting the volume to (mute)",
+      "onWaiting": "This is to be run when the media has paused but is expected to resume (like when the media pauses to buffer more data)"
+    },
+    "image": {
+      "onLoad": "This event occurs when an object has been loaded",
+      "onError": "Thisevent is triggered if an error occurs while loading an external file"
+    },
+    "animation": {
+      "onAnimationStart": "This  is fired when a CSS Animation has started",
+      "onAnimationEnd": "This is fired when a CSS Animation has completed",
+      "onAnimationIteration": "The  event is fired when an iteration of a CSS Animation ends, and another one begins"
+    },
+    "transition": {
+      "onTransitionEnd": "The event is fired when a CSS transition has completed"
     }
-]
+  }
+  
